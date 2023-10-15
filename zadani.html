@@ -201,30 +201,28 @@
           <div class="bg-light text-danger p-3">
             <h4>alert()</h4>
             <code>
-              /* 
-            
-              &lt;script&gt;
-                    function zobrazAlert() {
-                        alert('Nezadal jsi správné heslo!');
-                    }
-                    &lt;/script&gt;
-            */<br />
+            <br />
               alert('Nezadal jsi správné heslo!');
+              
+              <p>slouzi k zobrazeni dialogoveho okna s textovou zprávou</p>
             </code>
             <h4>prompt()</h4>
             <code>
               /* Do proměnné password vloží heslo zadané uživatelem */<br />
-              ...
+              <p>funkce promtp() slouzi k textovemu vystupu i vstupu</p>
+              <p>promena password text zastoupi kulickami, aby heslo bylo bezpecnejsi</p>
             </code>
             <h4>confirm()</h4>
             <code>
               /* ... */<br />
               if (confirm('Chceš přejít na stránky Seznam.cz?'))
               location.href='https://seznam.cz';
+              <p>objevi se dve tlacitka. napr. "ok" a "zrusit"</p>
+            <p>pokud uzivatel klikne na tlacitko "ok", funkce ho presmeruje na stranky seznamu</p>
             </code>
             <hr />
             <p class="alert alert-primary" role="alert">
-              Varování:
+              Varování: pop up okna se nevyuzivaji u klasickych webovych aplikaci kvuli bezpecnosti a plynulosti stranek.
             </p>
           </div>
         </div>
